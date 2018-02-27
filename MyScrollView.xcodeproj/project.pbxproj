@@ -14,6 +14,7 @@
 		D8CE322A2044A8E8000DE7FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CE32292044A8E8000DE7FC /* Assets.xcassets */; };
 		D8CE322D2044A8E8000DE7FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8CE322B2044A8E8000DE7FC /* LaunchScreen.storyboard */; };
 		D8CE32302044A8E8000DE7FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CE322F2044A8E8000DE7FC /* main.m */; };
+		D8CE32382044BD4B000DE7FC /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8CE32372044BD4B000DE7FC /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		D8CE322C2044A8E8000DE7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8CE322E2044A8E8000DE7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8CE322F2044A8E8000DE7FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8CE32362044BD4B000DE7FC /* MyScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		D8CE32372044BD4B000DE7FC /* MyScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				D8CE32202044A8E8000DE7FC /* ViewController.h */,
 				D8CE32212044A8E8000DE7FC /* ViewController.m */,
 				D8CE32232044A8E8000DE7FC /* Main.storyboard */,
+				D8CE32362044BD4B000DE7FC /* MyScrollView.h */,
+				D8CE32372044BD4B000DE7FC /* MyScrollView.m */,
 				D8CE32292044A8E8000DE7FC /* Assets.xcassets */,
 				D8CE322B2044A8E8000DE7FC /* LaunchScreen.storyboard */,
 				D8CE322E2044A8E8000DE7FC /* Info.plist */,
@@ -148,6 +153,7 @@
 				D8CE32282044A8E8000DE7FC /* MyScrollView.xcdatamodeld in Sources */,
 				D8CE32222044A8E8000DE7FC /* ViewController.m in Sources */,
 				D8CE32302044A8E8000DE7FC /* main.m in Sources */,
+				D8CE32382044BD4B000DE7FC /* MyScrollView.m in Sources */,
 				D8CE321F2044A8E8000DE7FC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
