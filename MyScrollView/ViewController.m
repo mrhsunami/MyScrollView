@@ -18,6 +18,9 @@
 
 @end
 
+
+
+
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -30,7 +33,7 @@
 
     self.redView = [[UIView alloc] init];
     [self.myScrollView addSubview:self.redView];
-    self.redView.frame = CGRectMake(20, 20, 100, 100);
+    self.redView.frame = CGRectMake(20, 20+20, 100, 100); //i added 20 to the y origin so that it has a margin away from the top bar.
     self.redView.backgroundColor = UIColor.redColor;
     
     self.greenView = [[UIView alloc] init];
